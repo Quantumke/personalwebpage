@@ -1,10 +1,6 @@
 (function($)
 {
-	// This script was written by Steve Fenton
-	// http://www.stevefenton.co.uk/Content/Jquery-Side-Content/
-	// Feel free to use this jQuery Plugin
-	// Version: 3.0.2
-    // Contributions by:
+	//Credits:Benson Mburu Kenya
 
 	var classModifier = "";
 	var sliderCount = 0;
@@ -140,7 +136,9 @@
 			if (config.textdirection == "vertical") {
 				$("#" + sliderId + "_pullout span").css({
 					display: "block",
+                    width:"40",
 					textAlign: "center"
+
 				});
 			}
 
