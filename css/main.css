@@ -33,6 +33,7 @@
 		}
 .pull-out-head{
     text-align: justify;
+   width: 300px;
 
 }
 .btn-a{
@@ -55,4 +56,8 @@
     background: #468558;
     width: 100%;
 
+}
+.my-text{
+    width: 250px;
+    text-align: justify;
 }
