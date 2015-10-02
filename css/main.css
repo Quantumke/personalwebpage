@@ -1,3 +1,7 @@
+body{
+background: #BFE2CC;
+}
+
 .sidecontentpullout {
 			background: #E5E5E5;
 			color: #0E2E19;
@@ -77,4 +81,21 @@
   0%, 3%, 5%, 42%, 44%, 100% { transform: scaleY(1); }
   4.3% { transform: scaleY(1.7); }
   43% { transform: scaleX(1.5); }
+}
+.body-begin{
+
+    height: 300px;
+    margin-top: 20px;
+
+}
+.center-row{
+height: 300px;
+
+    width: 100%;
+}
+.processes{
+
+    height: 300px;
+    border:solid 0.5px black;
+
 }
