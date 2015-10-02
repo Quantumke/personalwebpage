@@ -1,6 +1,7 @@
 .sidecontentpullout {
 			background-color: Black;
 			color: White;
+              margin-top: 50px;
 			padding: 4px 3px;
 			-moz-border-radius-bottomleft: 1em;
 			-moz-border-radius-topleft: 1em;
@@ -18,9 +19,11 @@
 		.sidecontent {
 			background-color: Black;
 			color: White;
+            margin-top: 50px;
 			-moz-border-radius-bottomleft: 1em;
 			-webkit-border-bottom-left-radius: 1em;
 			border-bottom-left-radius: 1em;
+
 		}
 
 		.sidecontent > div > div {
