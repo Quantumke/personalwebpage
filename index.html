@@ -19,15 +19,12 @@
 		<![endif]-->
 	</head>
 	<body>
-	<div id="slideout">
-    <img src="http://img.usabilitypost.com.s3.amazonaws.com/1104/css_slideout/feedback.png" alt="Feedback" />
-    <div id="slideout_inner">
-        <form>
-            <textarea></textarea>
-            <input type="submit" value="Post feedback"></input>
-        </form>
-    </div>
-</div>
+	<div class="side" title="Slide 1">
+				<h2>Side Content</h2>
+				<p>This is the side content that you want to de-clutter from your page.</p>
+				<p>You can apply whatever CSS rules you like to this element, only the position and behaviour will be changed by the plugin.</p>
+				<p>There are plenty of configurable settings if you want to change the default behaviour!</p>
+			</div>
 		<div class="container demo-1">
 			<div class="content">
 				<div id="large-header" class="large-header">
@@ -66,5 +63,10 @@
 		<script src="js/EasePack.min.js"></script>
 		<script src="js/rAF.js"></script>
 		<script src="js/demo-1.js"></script>
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.sidecontent.js"></script>
+	<script type="text/javascript">
+		$(".side").sidecontent();
+	</script>
 	</body>
 </html>
