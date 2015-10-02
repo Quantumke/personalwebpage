@@ -1,8 +1,9 @@
 .sidecontentpullout {
-			background-color: Black;
-			color: White;
+			background: #E5E5E5;
+			color: #0E2E19;
               margin-top: 50px;
 			padding: 4px 3px;
+    width: 50px;
 			-moz-border-radius-bottomleft: 1em;
 			-moz-border-radius-topleft: 1em;
 			-webkit-border-bottom-left-radius: 1em;
@@ -17,8 +18,8 @@
 		}
 
 		.sidecontent {
-			background-color: Black;
-			color: White;
+			background-color: #F5F2F2;
+			color: #468558;
             margin-top: 50px;
 			-moz-border-radius-bottomleft: 1em;
 			-webkit-border-bottom-left-radius: 1em;
@@ -30,3 +31,22 @@
 			padding-left: 10px;
 			padding-right: 40px;
 		}
+.pull-out-head{
+    text-align: justify;
+
+}
+.btn-a{
+    height: 35px;
+    width: auto;
+    cursor: pointer;
+    border: 2px solid #468558;
+    background: #468558;
+    	-moz-border-radius-bottomleft: 1em;
+			-moz-border-radius-topleft: 1em;
+			-webkit-border-bottom-left-radius: 1em;
+			-webkit-border-top-left-radius: 1em;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+
+}
