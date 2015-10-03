@@ -155,3 +155,10 @@ font-family: unifrakturcook;
 .proc-desc{
    text-align: center;
 }
+.graphs{
+   height: 300px;
+
+}
+.graphs-min{
+   height: 300px;
+}
