@@ -96,7 +96,7 @@ height: 300px;
 .processes{
 
     height: 300px;
-    border:solid 0.5px black;
+
 
 }
 .projects{
@@ -144,4 +144,14 @@ font-family: unifrakturcook;
     text-align: justify;
     background:aqua;
     text-align: center;
+}
+.hdr-process{
+   text-align: center;
+
+}
+.proc-title{
+   text-align: center;
+}
+.proc-desc{
+   text-align: center;
 }
